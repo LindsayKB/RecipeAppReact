@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Varela+Round&display=swap');
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  padding-top:20px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:white;
+}
+p, ol {
+	font-family: 'Varela Round', sans-serif;
+}
+.search-form {
+	min-height:10vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.search-bar {
+	width: 50%;
+	border: none;
+	padding: 10px;
+}
+
+.search-button {
+	background: #A47DB9;
+	border:none;
+	padding: 10px 20px;
+	color: white;
+}
+
+.recipes {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.recipe-card {
+	border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 0 1 18%;
+	box-shadow: 4px -2px 20px yellow;
+}
+.recipe-card h2 {
+	color:#f78ca0;
+}
+.recipe-card img {
+	border:5px solid #A47DB9;
+	border-radius:10px;
+}
